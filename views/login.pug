@@ -1,0 +1,23 @@
+extends layouts/login-layout.pug
+
+block content
+    img(src='/images/f.png',style='width:900px; position: relative;margin-top:0px')
+    .loginContainer
+        
+        #icon
+            img(src='/images/icon.png', style='width:50px;height:50px;')
+        h1 Login On Twitter
+        form(method="post")
+
+            p.errorMessage #{errorMessage}
+
+            //- input(type="text", name="logUsername", placeholder="Username or email", value=logUsername required="")
+            //- input(type="password", name="logPassword", placeholder="Password", required="")
+
+            input(type="text", name="logUsername", placeholder="Username or email" required="")
+            input(type="password", name="logPassword", placeholder="Password", required="")
+
+            input(type="submit", value="Login")
+        a(href='/register')
+            button Create account!!
+        

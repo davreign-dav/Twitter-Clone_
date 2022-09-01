@@ -1,0 +1,66 @@
+body {
+    background-color:  #0099ff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.loginContainer {
+    float: left;
+    /* padding: 20px; */
+    width: 80%;
+    
+    max-width: 500px;
+    border: 1px solid #dedede;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+button{
+    margin-top: 20px;
+    background-color: #0099ff;
+    color: #fff;
+    border: none;
+    height:40px; 
+    width:300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid  #0099ff;
+    background-color:   #f2f2f2;
+}
+
+input[type="submit"] {
+    display: flex;
+    justify-content: center;
+    background-color: #0099ff  ;
+    color:  #f2f2f2 ;
+    border: none;
+    margin-left: 35px;
+    height:40px; 
+    width:390px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
